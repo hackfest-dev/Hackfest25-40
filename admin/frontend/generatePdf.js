@@ -56,7 +56,7 @@ export const generateAdminReport = async (adminData) => {
   `;
   reportContent.innerHTML += objectives;
 
-  // Events
+  
   const events = `
     <div style="margin-bottom: 20mm;">
       <div style="font-size: 14pt; font-weight: bold; color: #003366; margin-bottom: 5mm;">Events:</div>
